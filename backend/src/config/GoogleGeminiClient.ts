@@ -15,7 +15,5 @@ export const ClientResponse = async (input: any) => {
     ...input,
   });
 
-  console.log(res.text);
-
   return res.text;
 };
