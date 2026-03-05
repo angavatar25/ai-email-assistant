@@ -1,0 +1,13 @@
+{
+  "name": "Email AI Agent",
+  "version": "1.0.1",
+  "main": "index.js",
+  "author": "Ananda Afryan Gemilang <work.anandaryan25@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"cd client && npm run dev\" && \"cd backend && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
